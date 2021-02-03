@@ -8,9 +8,14 @@
 .main {
   width: calc(100vw - 280px);
 }
+.names{
+  font-size: 30px;
+  font-family: serif;
+  color: #fff;
+}
 .main-members{
 background-color: #330000;
-  height: 150px;
+  height: 120px;
   border: 2px solid #e0ce0a;
 }
 .member-view{
@@ -21,7 +26,7 @@ background-color: #330000;
 
 .main-result{
   background-color: #00283c;
-  height: calc(100vh - 150px - 300px);
+  height: calc(100vh - 120px - 325px);
   border: 2px solid #e0ce0a;
 }
 .yaku{
@@ -40,7 +45,24 @@ background-color: #330000;
   border: 2px solid #e0ce0a;
 }
 .side {
-  background-color: #253141;
+  background-color: #00283c;
   width: 280px;
   height: 100vh;
+  border: 2px solid #e0ce0a;
+}
+.youtube-font{
+  font-size: 30px;
+  font-family: serif;
+}
+
+.youtube{
+  border: 2px solid #e0ce0a;
+  background-color: gray;
+}
+.video{
+  padding-left: 5px;
+}
+.memotext{
+  padding-top: 10px;
+  margin-left: 8px;
 }
