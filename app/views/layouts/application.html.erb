@@ -12,9 +12,24 @@
     window.open(url, "Jname", "width=300,height=200,scrollbars=yes");
     }
     </script>
+
   </head>
 
   <body>
     <%= yield %>
+    <div id="player"></div>
+    <script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      function onYouTubeIframeAPIReady() {
+        new YT.Player('player', {
+          height: '270',
+          width: '480',
+          videoId: 'lm_N43AXvLw',
+        });
+      }
+    </script>
   </body>
 </html>
