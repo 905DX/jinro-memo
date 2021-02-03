@@ -33,6 +33,9 @@ background-color: #330000;
   font-size: 30px;
   font-family: serif;
   color: #fff;
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 .selectbox{
   display: flex;
@@ -66,3 +69,17 @@ background-color: #330000;
   padding-top: 10px;
   margin-left: 8px;
 }
+.selectbox{
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: 2px solid #dddddd;
+	border-radius: 5px;
+	padding: 5px 20px;
+  color: #666666;
+  font-size: 19px;
+  font-family: serif;
+}
+select::-ms-expand {
+  display: none;
+  }
