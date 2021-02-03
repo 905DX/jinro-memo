@@ -6,12 +6,41 @@
 }
 
 .main {
-  background-color: #FFFFFF;
-  width: calc(100vw - 300px);
+  width: calc(100vw - 280px);
+}
+.main-members{
+background-color: #330000;
+  height: 150px;
+  border: 2px solid #e0ce0a;
+}
+.member-view{
+  position: absolute;
+  top: 10px;
+  left: 5px;
 }
 
+.main-result{
+  background-color: #00283c;
+  height: calc(100vh - 150px - 300px);
+  border: 2px solid #e0ce0a;
+}
+.yaku{
+  font-size: 30px;
+  font-family: serif;
+  color: #fff;
+}
+.selectbox{
+  display: flex;
+}
+
+
+.main-ber{
+  background-color: grey;
+  height: 300;
+  border: 2px solid #e0ce0a;
+}
 .side {
   background-color: #253141;
-  width: 300px;
+  width: 280px;
   height: 100vh;
 }
