@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get 'articles/index'
-  get 'memos/member'
+  post 'memos/member'
   root to:'articles#index'
 end
