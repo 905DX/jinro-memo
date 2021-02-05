@@ -7,12 +7,6 @@
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <script type="text/javascript">
-    function disp(url){
-    window.open(url, "Jname", "width=300,height=200,scrollbars=yes");
-    }
-    </script>
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script>
 $(function(){
   $('#btn1').click(function(){
@@ -36,7 +30,7 @@ $(function(){
       function onYouTubeIframeAPIReady() {
         new YT.Player('player', {
           height: '270',
-          width: '480',
+          width: '430',
           videoId: 'lm_N43AXvLw',
         });
       }
