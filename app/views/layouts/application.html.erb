@@ -12,9 +12,19 @@
     window.open(url, "Jname", "width=300,height=200,scrollbars=yes");
     }
     </script>
-
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+$(function(){
+  $('#btn1').click(function(){
+    //要素をコピーして、テキストに"hoge"を設定する
+    var obj = $('#d1').clone();
+    //要素の後ろにコピーした要素を追加する
+    $('#d1').after(obj);
+  });
+});
+</script>
   </head>
-
+  
   <body>
     <%= yield %>
     <div id="player"></div>

@@ -8,20 +8,18 @@
 .main {
   width: calc(100vw - 280px);
 }
-.names{
-  font-size: 30px;
-  font-family: serif;
-  color: #fff;
-}
 .main-members{
 background-color: #330000;
   height: 120px;
   border: 2px solid #e0ce0a;
 }
+.title{
+  font-size: 30px;
+  font-family: serif;
+  color: #fff;
+}
 .member-view{
   position: absolute;
-  top: 10px;
-  left: 5px;
 }
 
 .main-result{
@@ -29,16 +27,28 @@ background-color: #330000;
   height: calc(100vh - 120px - 325px);
   border: 2px solid #e0ce0a;
 }
-.yaku{
-  font-size: 30px;
-  font-family: serif;
-  color: #fff;
-  display: inline-flex;
-  margin-top: 10px;
-  margin-left: 5px;
+.tsuikabtn{
+  margin-bottom: 5px;
 }
+
 .selectbox{
   display: flex;
+  font-family: serif;
+  font-size: 20px;
+  overflow: auto;
+  cursor: pointer;
+}
+.selectbox-yaku{
+  margin-right: 5px;
+}
+.selectbox-users{
+  margin-right: 2px;
+}
+.selectbox-color{
+  margin-right: 5px;
+}
+.selectbox-members{
+  margin-right: 5px;
 }
 
 
@@ -69,17 +79,12 @@ background-color: #330000;
   padding-top: 10px;
   margin-left: 8px;
 }
-.selectbox{
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	appearance: none;
-	border: 2px solid #dddddd;
-	border-radius: 5px;
-	padding: 5px 20px;
-  color: #666666;
-  font-size: 19px;
-  font-family: serif;
-}
-select::-ms-expand {
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+select::-ms-expand{
   display: none;
   }
